@@ -48,8 +48,9 @@ public:
 			{
 				for (int nn = max_stops - 1; nn >= min_stops; nn--)
 				{
-					if (remains[nn] >= max_refuel)
-						max_stops = nn;
+					if (remains[nn] < max_refuel)
+						break;
+					max_stops = nn;
 				}
 			}
 
