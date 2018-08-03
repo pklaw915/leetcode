@@ -47,7 +47,7 @@ public:
 
 
 
-void test_firstMissingPositive()
+void test0041_firstMissingPositive()
 {
 	Solution0041 sol;
 	int nn;

@@ -63,7 +63,7 @@ public:
 };
 
 
-void test_mergeKLists()
+void test0023_mergeKLists()
 {
 	vector<ListNode*> vNodes;
 	vNodes.resize(100);

@@ -26,7 +26,7 @@ public:
 	}
 };
 
-void test_twoSum()
+void test0001_twoSum()
 {
 	Solution0001 sol;
 	vector<int> nums;

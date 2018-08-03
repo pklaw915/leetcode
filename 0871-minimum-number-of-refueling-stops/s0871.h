@@ -68,7 +68,7 @@ public:
 };
 
 
-void test_minRefuelStops()
+void test0871_minRefuelStops()
 {
 	int nn;
 	int target;
@@ -147,7 +147,11 @@ void test_minRefuelStops()
 	}
 
 	nn = 0;
+#ifdef _DEBUG
+	int repeat = 1;
+#else
 	int repeat = 100000;
+#endif // 
 	for (int ii = 0; ii < repeat; ++ii)
 	{
 		nn += sol.minRefuelStops(target, startFuel, stations);

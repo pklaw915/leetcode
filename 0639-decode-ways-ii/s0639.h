@@ -79,7 +79,7 @@ public:
 	}
 };
 
-void test_numDecodings()
+void test0639_numDecodings()
 {
 	int nn;
 	Solution0639 sol;

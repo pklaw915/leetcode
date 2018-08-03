@@ -49,7 +49,7 @@ public:
 
 
 
-void test_atoi()
+void test0008_atoi()
 {
 	Solution0008 sol;
 	int nn;

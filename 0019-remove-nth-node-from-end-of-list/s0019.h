@@ -110,7 +110,7 @@ void verifyList(const vector<ListNode*>& vNodes, const ListNode* head, int n, in
 	assert(vNodes[n - 1]->next == nullptr);
 }
 
-void test_removeNthFromEnd()
+void test0019_removeNthFromEnd()
 {
 	vector<ListNode*> vNodes;
 	vNodes.resize(100);

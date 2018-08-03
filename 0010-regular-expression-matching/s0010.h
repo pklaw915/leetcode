@@ -92,7 +92,7 @@ public:
 };
 
 
-void test_isMatch()
+void test0010_isMatch()
 {
 	bool b;
 	string s, p;

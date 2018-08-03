@@ -98,7 +98,7 @@ void test_speed_findMedianSortedArrays(size_t size, size_t repeat)
 	printf("%g\n", median);
 }
 
-void test_findMedianSortedArrays()
+void test0004_findMedianSortedArrays()
 {
 	Solution0004 sol;
 	double median = 0;
