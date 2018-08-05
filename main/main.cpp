@@ -6,12 +6,17 @@
 //#include "../0002-add-two-numbers/s0002.h"
 //#include "../0003-longest-substring-without-repeating-characters/s0003.h"
 //#include "../0004-median-of-two-sorted-arrays/s0004.h"
+//#include "../0005-longest-palindromic-substring/s0005.h"
 //#include "../0008-string-to-integer-atoi/s0008.h"
 //#include "../0010-regular-expression-matching/s0010.h"
 //#include "../0019-remove-nth-node-from-end-of-list/s0019.h"
 //#include "../0023-merge-k-sorted-lists/s0023.h"
 //#include "../0025-reverse-nodes-in-k-group/s0025.h"
+//#include "../0031-next-permutation/s0031.h"
+//#include "../0032-longest-valid-parentheses/s0032.h"
 //#include "../0041-first-missing-positive/s0041.h"
+//#include "../0042-trapping-rain-water/s0042.h"
+//#include "../0044-wildcard-matching/s0044.h"
 //#include "../0088-merge-sorted-array/s0088.h"
 //#include "../0136-single-number/s0136.h"
 #include "../0391-perfect-rectangle/s0391.h"
@@ -30,7 +35,11 @@ int main()
 	//test0019_removeNthFromEnd();
 	//test0023_mergeKLists();
 	//test0025_reverseKGroup();
+	//test0031_nextPermutation();
+	//test0032_longestValidParentheses();
 	//test0041_firstMissingPositive();
+	//test0042_trap();
+	//test0044_isMatch();
 	//test0088_merge();
 	//test0136_singleNumber();
 	test0391_isRectangleCover();
