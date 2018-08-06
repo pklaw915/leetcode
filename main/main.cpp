@@ -17,6 +17,8 @@
 //#include "../0041-first-missing-positive/s0041.h"
 //#include "../0042-trapping-rain-water/s0042.h"
 //#include "../0044-wildcard-matching/s0044.h"
+//#include "../0051-n-queens/s0051.h"
+//#include "../0052-n-queens-ii/s0052.h"
 //#include "../0088-merge-sorted-array/s0088.h"
 //#include "../0136-single-number/s0136.h"
 #include "../0391-perfect-rectangle/s0391.h"
@@ -40,6 +42,8 @@ int main()
 	//test0041_firstMissingPositive();
 	//test0042_trap();
 	//test0044_isMatch();
+	//test0051_solveNQueens();
+	//test0052_totalNQueens();
 	//test0088_merge();
 	//test0136_singleNumber();
 	test0391_isRectangleCover();
