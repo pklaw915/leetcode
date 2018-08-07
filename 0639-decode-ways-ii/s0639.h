@@ -6,6 +6,8 @@
 #include <stdlib.h>
 using namespace std; 
 
+#ifndef __SOLUTION_0639__
+#define __SOLUTION_0639__
 class Solution0639 {
 public:
 	int numDecodings(char c) const
@@ -112,3 +114,4 @@ void test0639_numDecodings()
 	nn = sol.numDecodings("*****************************");
 	assert(nn == 226137644);
 }
+#endif // __SOLUTION_0639__

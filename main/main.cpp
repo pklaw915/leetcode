@@ -6,7 +6,7 @@
 //#include "../0002-add-two-numbers/s0002.h"
 //#include "../0003-longest-substring-without-repeating-characters/s0003.h"
 //#include "../0004-median-of-two-sorted-arrays/s0004.h"
-//#include "../0005-longest-palindromic-substring/s0005.h"
+#include "../0005-longest-palindromic-substring/s0005.h"
 //#include "../0008-string-to-integer-atoi/s0008.h"
 //#include "../0010-regular-expression-matching/s0010.h"
 //#include "../0019-remove-nth-node-from-end-of-list/s0019.h"
@@ -20,9 +20,13 @@
 //#include "../0051-n-queens/s0051.h"
 //#include "../0052-n-queens-ii/s0052.h"
 //#include "../0088-merge-sorted-array/s0088.h"
+//#include "../0091-decode-ways/s0091.h"
 //#include "../0136-single-number/s0136.h"
+//#include "../0292-nim-game/s0292.h"
+//#include "../0319-bulb-switcher/s0319.h"
 #include "../0391-perfect-rectangle/s0391.h"
 //#include "../0639-decode-ways-ii/s0639.h"
+//#include "../0777-swap-adjacent-in-lr-string/s0777.h"
 //#include "../0871-minimum-number-of-refueling-stops/s0871.h"
 
 
@@ -32,6 +36,7 @@ int main()
 	//test0002_addTwoNumbers();
 	//test0003_lengthOfLongestSubstring();
 	//test0004_findMedianSortedArrays();
+	test0005_longestPalindrome();
 	//test0008_atoi();
 	//test0010_isMatch();
 	//test0019_removeNthFromEnd();
@@ -45,9 +50,13 @@ int main()
 	//test0051_solveNQueens();
 	//test0052_totalNQueens();
 	//test0088_merge();
+	//test0091_numDecodings();
 	//test0136_singleNumber();
+	//test0209_canWinNim();
+	//test0319_bulbSwitch();
 	test0391_isRectangleCover();
 	//test0639_numDecodings();
+	//test0777_canTransform();
 	//test0871_minRefuelStops();
     return 0;
 }
