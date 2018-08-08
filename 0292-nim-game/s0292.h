@@ -5,7 +5,7 @@ public:
 	}
 };
 
-void test0209_canWinNim()
+void test0292_canWinNim()
 {
 
 }
