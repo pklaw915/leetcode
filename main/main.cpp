@@ -23,6 +23,7 @@
 //#include "../0091-decode-ways/s0091.h"
 //#include "../0136-single-number/s0136.h"
 //#include "../0214-shortest-palindrome/s0214.h"
+//#include "../0233-number-of-digit-one/s0233.h"
 //#include "../0292-nim-game/s0292.h"
 //#include "../0319-bulb-switcher/s0319.h"
 #include "../0391-perfect-rectangle/s0391.h"
@@ -54,6 +55,7 @@ int main()
 	//test0091_numDecodings();
 	//test0136_singleNumber();
 	//test0214_shortestPalindrome();
+	//test0233_countDigitOne();
 	//test0292_canWinNim();
 	//test0319_bulbSwitch();
 	test0391_isRectangleCover();
