@@ -29,6 +29,7 @@
 #include "../0391-perfect-rectangle/s0391.h"
 //#include "../0639-decode-ways-ii/s0639.h"
 //#include "../0777-swap-adjacent-in-lr-string/s0777.h"
+//#include "../0828-unique-letter-string/s0828.h"
 //#include "../0871-minimum-number-of-refueling-stops/s0871.h"
 
 
@@ -61,6 +62,7 @@ int main()
 	test0391_isRectangleCover();
 	//test0639_numDecodings();
 	//test0777_canTransform();
+	//test0828_uniqueLetterString();
 	//test0871_minRefuelStops();
     return 0;
 }
