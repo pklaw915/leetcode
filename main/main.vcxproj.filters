@@ -24,6 +24,93 @@
     <ClInclude Include="..\0828-unique-letter-string\s0828.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\0001-two-sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0002-add-two-numbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0003-longest-substring-without-repeating-characters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0004-median-of-two-sorted-arrays.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0005-longest-palindromic-substring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0008-string-to-integer-atoi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0010-regular-expression-matching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0019-remove-nth-node-from-end-of-list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0023-merge-k-sorted-lists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0025-reverse-nodes-in-k-group.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0031-next-permutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0032-longest-valid-parentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0041-first-missing-positive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0042-trapping-rain-water.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0044-wildcard-matching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0051-n-queens.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0052-n-queens-ii.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0088-merge-sorted-array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0091-decode-ways.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0136-single-number.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0214-shortest-palindrome.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0233-number-of-digit-one.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0292-nim-game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0319-bulb-switcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0391-perfect-rectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0639-decode-ways-ii.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0777-swap-adjacent-in-lr-string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0828-unique-letter-string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0871-minimum-number-of-refueling-stops.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

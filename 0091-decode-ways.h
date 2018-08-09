@@ -39,7 +39,7 @@ public:
 	}
 };
 
-#include "../0639-decode-ways-ii/s0639.h"
+#include "0639-decode-ways-ii.h"
 void test0091_numDecodings()
 {
 	int nn;
