@@ -111,6 +111,12 @@
     <ClInclude Include="..\0871-minimum-number-of-refueling-stops.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\0045-jump-game-ii.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0055-jump-game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

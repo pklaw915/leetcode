@@ -161,8 +161,10 @@
     <ClInclude Include="..\0041-first-missing-positive.h" />
     <ClInclude Include="..\0042-trapping-rain-water.h" />
     <ClInclude Include="..\0044-wildcard-matching.h" />
+    <ClInclude Include="..\0045-jump-game-ii.h" />
     <ClInclude Include="..\0051-n-queens.h" />
     <ClInclude Include="..\0052-n-queens-ii.h" />
+    <ClInclude Include="..\0055-jump-game.h" />
     <ClInclude Include="..\0088-merge-sorted-array.h" />
     <ClInclude Include="..\0091-decode-ways.h" />
     <ClInclude Include="..\0136-single-number.h" />
