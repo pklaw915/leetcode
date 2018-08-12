@@ -165,6 +165,7 @@
     <ClInclude Include="..\0051-n-queens.h" />
     <ClInclude Include="..\0052-n-queens-ii.h" />
     <ClInclude Include="..\0055-jump-game.h" />
+    <ClInclude Include="..\0057-insert-interval.h" />
     <ClInclude Include="..\0088-merge-sorted-array.h" />
     <ClInclude Include="..\0091-decode-ways.h" />
     <ClInclude Include="..\0136-single-number.h" />
@@ -176,7 +177,6 @@
     <ClInclude Include="..\0639-decode-ways-ii.h" />
     <ClInclude Include="..\0777-swap-adjacent-in-lr-string.h" />
     <ClInclude Include="..\0828-unique-letter-string.h" />
-    <ClInclude Include="..\0828-unique-letter-string\s0828.h" />
     <ClInclude Include="..\0871-minimum-number-of-refueling-stops.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
