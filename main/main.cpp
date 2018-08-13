@@ -32,6 +32,7 @@
 #include "../0319-bulb-switcher.h"
 #include "../0391-perfect-rectangle.h"
 #include "../0639-decode-ways-ii.h"
+#include "../0736-parse-lisp-expression.h"
 #include "../0777-swap-adjacent-in-lr-string.h"
 #include "../0828-unique-letter-string.h"
 #include "../0871-minimum-number-of-refueling-stops.h"
@@ -44,7 +45,7 @@ int main()
 	//test0003_lengthOfLongestSubstring();
 	//test0004_findMedianSortedArrays();
 	//test0005_longestPalindrome();
-	test0006_convert();
+	//test0006_convert();
 	//test0008_atoi();
 	//test0010_isMatch();
 	//test0019_removeNthFromEnd();
@@ -57,7 +58,7 @@ int main()
 	//test0044_isMatch();
 	//test0051_solveNQueens();
 	//test0052_totalNQueens();
-	test0057_insert();
+	//test0057_insert();
 	//test0088_merge();
 	//test0091_numDecodings();
 	//test0136_singleNumber();
@@ -65,8 +66,9 @@ int main()
 	//test0233_countDigitOne();
 	//test0292_canWinNim();
 	//test0319_bulbSwitch();
-	//test0391_isRectangleCover();
+	test0391_isRectangleCover();
 	//test0639_numDecodings();
+	test0736_evaluate();
 	//test0777_canTransform();
 	//test0828_uniqueLetterString();
 	//test0871_minRefuelStops();

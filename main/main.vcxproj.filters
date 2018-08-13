@@ -117,6 +117,12 @@
     <ClInclude Include="..\0057-insert-interval.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\0006-zigzag-conversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\0736-parse-lisp-expression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

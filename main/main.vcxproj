@@ -151,6 +151,7 @@
     <ClInclude Include="..\0003-longest-substring-without-repeating-characters.h" />
     <ClInclude Include="..\0004-median-of-two-sorted-arrays.h" />
     <ClInclude Include="..\0005-longest-palindromic-substring.h" />
+    <ClInclude Include="..\0006-zigzag-conversion.h" />
     <ClInclude Include="..\0008-string-to-integer-atoi.h" />
     <ClInclude Include="..\0010-regular-expression-matching.h" />
     <ClInclude Include="..\0019-remove-nth-node-from-end-of-list.h" />
@@ -175,6 +176,7 @@
     <ClInclude Include="..\0319-bulb-switcher.h" />
     <ClInclude Include="..\0391-perfect-rectangle.h" />
     <ClInclude Include="..\0639-decode-ways-ii.h" />
+    <ClInclude Include="..\0736-parse-lisp-expression.h" />
     <ClInclude Include="..\0777-swap-adjacent-in-lr-string.h" />
     <ClInclude Include="..\0828-unique-letter-string.h" />
     <ClInclude Include="..\0871-minimum-number-of-refueling-stops.h" />
