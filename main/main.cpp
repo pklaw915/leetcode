@@ -32,6 +32,7 @@
 #include "../0292-nim-game.h"
 #include "../0319-bulb-switcher.h"
 #include "../0391-perfect-rectangle.h"
+#include "../0403-frog-jump.h"
 #include "../0639-decode-ways-ii.h"
 #include "../0736-parse-lisp-expression.h"
 #include "../0777-swap-adjacent-in-lr-string.h"

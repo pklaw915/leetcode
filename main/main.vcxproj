@@ -176,6 +176,7 @@
     <ClInclude Include="..\0292-nim-game.h" />
     <ClInclude Include="..\0319-bulb-switcher.h" />
     <ClInclude Include="..\0391-perfect-rectangle.h" />
+    <ClInclude Include="..\0403-frog-jump.h" />
     <ClInclude Include="..\0639-decode-ways-ii.h" />
     <ClInclude Include="..\0736-parse-lisp-expression.h" />
     <ClInclude Include="..\0777-swap-adjacent-in-lr-string.h" />
