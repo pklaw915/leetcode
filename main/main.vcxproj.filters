@@ -123,6 +123,9 @@
     <ClInclude Include="..\0736-parse-lisp-expression.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\0145-binary-tree-postorder-traversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

@@ -16,11 +16,7 @@ int KMP_next_single(const char* ps, int length, const vector<int>& vNext)
 	{
 		const int p = vNext[k];
 		if (p < 0)
-		{
-			if (k > 0 && ps[0] == cLast)
-				return 1;
-			break;
-		}
+			p = 0;
 		if (ps[p] == cLast)
 			return p + 1;
 		k = p;
