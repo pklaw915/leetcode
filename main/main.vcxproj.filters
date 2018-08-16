@@ -129,6 +129,9 @@
     <ClInclude Include="..\0403-frog-jump.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\0297-serialize-and-deserialize-binary-tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

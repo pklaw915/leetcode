@@ -30,6 +30,7 @@
 #include "../0214-shortest-palindrome.h"
 #include "../0233-number-of-digit-one.h"
 #include "../0292-nim-game.h"
+#include "../0297-serialize-and-deserialize-binary-tree.h"
 #include "../0319-bulb-switcher.h"
 #include "../0391-perfect-rectangle.h"
 #include "../0403-frog-jump.h"
