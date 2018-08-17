@@ -171,6 +171,7 @@
     <ClInclude Include="..\0091-decode-ways.h" />
     <ClInclude Include="..\0136-single-number.h" />
     <ClInclude Include="..\0145-binary-tree-postorder-traversal.h" />
+    <ClInclude Include="..\0164-maximum-gap.h" />
     <ClInclude Include="..\0214-shortest-palindrome.h" />
     <ClInclude Include="..\0233-number-of-digit-one.h" />
     <ClInclude Include="..\0292-nim-game.h" />

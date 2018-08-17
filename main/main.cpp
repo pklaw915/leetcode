@@ -27,6 +27,7 @@
 #include "../0091-decode-ways.h"
 #include "../0136-single-number.h"
 #include "../0145-binary-tree-postorder-traversal.h"
+#include "../0164-maximum-gap.h"
 #include "../0214-shortest-palindrome.h"
 #include "../0233-number-of-digit-one.h"
 #include "../0292-nim-game.h"
@@ -66,11 +67,12 @@ int main()
 	//test0088_merge();
 	//test0091_numDecodings();
 	//test0136_singleNumber();
-	test0145_postorderTraversal();
+	//test0145_postorderTraversal();
+	//test0164_maximumGap();
 	//test0214_shortestPalindrome();
 	//test0233_countDigitOne();
 	//test0292_canWinNim();
-	test0295_findMedian();
+	//test0295_findMedian();
 	//test0319_bulbSwitch();
 	test0391_isRectangleCover();
 	//test0639_numDecodings();
