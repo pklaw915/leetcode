@@ -132,6 +132,9 @@
     <ClInclude Include="..\0297-serialize-and-deserialize-binary-tree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\0295-find-median-from-data-stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

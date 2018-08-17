@@ -30,6 +30,7 @@
 #include "../0214-shortest-palindrome.h"
 #include "../0233-number-of-digit-one.h"
 #include "../0292-nim-game.h"
+#include "../0295-find-median-from-data-stream.h"
 #include "../0297-serialize-and-deserialize-binary-tree.h"
 #include "../0319-bulb-switcher.h"
 #include "../0391-perfect-rectangle.h"
@@ -69,6 +70,7 @@ int main()
 	//test0214_shortestPalindrome();
 	//test0233_countDigitOne();
 	//test0292_canWinNim();
+	test0295_findMedian();
 	//test0319_bulbSwitch();
 	test0391_isRectangleCover();
 	//test0639_numDecodings();
