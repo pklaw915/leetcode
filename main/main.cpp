@@ -29,6 +29,7 @@
 #include "../0145-binary-tree-postorder-traversal.h"
 #include "../0164-maximum-gap.h"
 #include "../0214-shortest-palindrome.h"
+#include "../0224-basic-calculator.h"
 #include "../0233-number-of-digit-one.h"
 #include "../0292-nim-game.h"
 #include "../0295-find-median-from-data-stream.h"
@@ -39,6 +40,7 @@
 #include "../0639-decode-ways-ii.h"
 #include "../0736-parse-lisp-expression.h"
 #include "../0777-swap-adjacent-in-lr-string.h"
+#include "../0793-preimage-size-of-factorial-zeroes-function.h"
 #include "../0828-unique-letter-string.h"
 #include "../0871-minimum-number-of-refueling-stops.h"
 
@@ -70,6 +72,7 @@ int main()
 	//test0145_postorderTraversal();
 	//test0164_maximumGap();
 	//test0214_shortestPalindrome();
+	//test0224_calculate();
 	//test0233_countDigitOne();
 	//test0292_canWinNim();
 	//test0295_findMedian();
@@ -78,6 +81,7 @@ int main()
 	//test0639_numDecodings();
 	//test0736_evaluate();
 	//test0777_canTransform();
+	//test0793_preimageSizeFZF();
 	//test0828_uniqueLetterString();
 	//test0871_minRefuelStops();
     return 0;
