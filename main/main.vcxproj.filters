@@ -138,6 +138,9 @@
     <ClInclude Include="..\0164-maximum-gap.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\0030-substring-with-concatenation-of-all-words.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

@@ -157,6 +157,7 @@
     <ClInclude Include="..\0019-remove-nth-node-from-end-of-list.h" />
     <ClInclude Include="..\0023-merge-k-sorted-lists.h" />
     <ClInclude Include="..\0025-reverse-nodes-in-k-group.h" />
+    <ClInclude Include="..\0030-substring-with-concatenation-of-all-words.h" />
     <ClInclude Include="..\0031-next-permutation.h" />
     <ClInclude Include="..\0032-longest-valid-parentheses.h" />
     <ClInclude Include="..\0041-first-missing-positive.h" />

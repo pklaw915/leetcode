@@ -13,6 +13,7 @@
 #include "../0019-remove-nth-node-from-end-of-list.h"
 #include "../0023-merge-k-sorted-lists.h"
 #include "../0025-reverse-nodes-in-k-group.h"
+#include "../0030-substring-with-concatenation-of-all-words.h"
 #include "../0031-next-permutation.h"
 #include "../0032-longest-valid-parentheses.h"
 #include "../0041-first-missing-positive.h"
@@ -58,6 +59,7 @@ int main()
 	//test0019_removeNthFromEnd();
 	//test0023_mergeKLists();
 	//test0025_reverseKGroup();
+	test0030_findSubstring();
 	//test0031_nextPermutation();
 	//test0032_longestValidParentheses();
 	//test0041_firstMissingPositive();
