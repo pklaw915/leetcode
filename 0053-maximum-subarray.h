@@ -23,42 +23,15 @@ public:
 	}
 
 	int maxSubArray2(vector<int>& nums) {
-		if (nums.size() < 1)
+		if (nums.empty())
 			return 0;
-
-		int maximum = 0, last = 0;
-
-		size_t n = 0;
-		while (n < nums.size())
+		int global = INT_MIN, local = 0;
+		for (auto iter = nums.begin(); iter != nums.end(); iter++)
 		{
-			int delta = 0;
-			while (n < nums.size())
-			{
-				if (nums[n] * delta < 0)
-					break;
-				delta += nums[n];
-				n++;
-			}
-
-			last += delta;
-			int prev = max(delta, 0);
-			if (prev > last)
-				last = prev;
-			if (last > maximum)
-				maximum = last;
+			local = max(*iter, local + *iter);
+			global = max(global, local);
 		}
-		if (maximum == 0)
-		{
-			n = 0;
-			maximum = nums[0];
-			while (n < nums.size())
-			{
-				if (nums[n] > maximum)
-					maximum = nums[n];
-				n++;
-			}
-		}
-		return maximum;
+		return global;
 	}
 };
 
@@ -75,5 +48,4 @@ void test0053_maxSubArray()
 	nums.assign({ -2 });
 	nn = sol.maxSubArray(nums);
 	assert(nn == -2);
-
 }
