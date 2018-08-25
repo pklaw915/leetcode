@@ -5,7 +5,7 @@
 #include <stdlib.h>
 using namespace std; 
 
-#include "utils/listnode.h"
+#include "utils/structs.h"
 
 class Solution0019 {
 public:

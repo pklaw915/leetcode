@@ -6,13 +6,7 @@
 #include <stdlib.h>
 using namespace std;
 
-struct Interval {
-    int start;
-    int end;
-    Interval() : start(0), end(0) {}
-    Interval(int s, int e) : start(s), end(e) {}
-};
-
+#include "utils/structs.h"
 
 class Solution0057 {
 public:

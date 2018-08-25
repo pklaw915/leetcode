@@ -1,6 +1,6 @@
 
-#ifndef __NUMERIC_UTILS__
-#define __NUMERIC_UTILS__
+#ifndef __UTIL_NUMERIC_OP__
+#define __UTIL_NUMERIC_OP__
 
 template<unsigned int NMAX>
 struct numeric_modulo_op
@@ -30,4 +30,4 @@ struct numeric_modulo_op
 	}
 };
 
-#endif // __NUMERIC_UTILS__
+#endif // __UTIL_NUMERIC_OP__

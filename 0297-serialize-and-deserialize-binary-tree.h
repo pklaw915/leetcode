@@ -5,7 +5,7 @@
 #include <stdlib.h>
 using namespace std;
 
-#include "utils/treenode.h"
+#include "utils/structs.h"
 
 class Codec {
 public:

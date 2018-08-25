@@ -1,11 +1,12 @@
 #include <algorithm>
 #include <vector>
 #include <string>
+#include <stack>
 #include <assert.h>
 #include <stdlib.h>
 using namespace std;
 
-#include "utils/treenode.h"
+#include "utils/structs.h"
 
 class Solution0145 {
 public:
