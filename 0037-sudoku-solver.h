@@ -10,7 +10,7 @@ using namespace std;
 class Solution0037 {
 public:
 	void solveSudoku(vector<vector<char>>& board) {
-		vector<unordered_set<char>> rowUsed(9), colUsed(9), subUsed(9);
+		bool rowUsed[81] = { false }, colUsed[81] = { false }, subUsed[81] = { false };
 		for (size_t row = 0; row < 9; row++)
 		{
 			for (size_t col = 0; col < 9; col++)
@@ -18,9 +18,10 @@ public:
 				if (board[row][col] != '.')
 				{
 					const size_t sub = (row / 3) * 3 + (col / 3);
-					rowUsed[row].insert(board[row][col]);
-					colUsed[col].insert(board[row][col]);
-					subUsed[sub].insert(board[row][col]);
+					const int n = board[row][col] - '1';
+					rowUsed[row * 9 + n] = true;
+					colUsed[col * 9 + n] = true;
+					subUsed[sub * 9 + n] = true;
 				}
 			}
 		}
@@ -28,7 +29,7 @@ public:
 		solve(board, 0, 0, rowUsed, colUsed, subUsed);
 	}
 
-	bool solve(vector<vector<char>>& board, size_t row, size_t col, vector<unordered_set<char>>& rowUsed, vector<unordered_set<char>>& colUsed, vector<unordered_set<char>>& subUsed) {
+	bool solve(vector<vector<char>>& board, size_t row, size_t col, bool* rowUsed, bool* colUsed, bool* subUsed) {
 		while (board[row][col] != '.')
 		{
 			++col;
@@ -42,24 +43,24 @@ public:
 		}
 
 		const size_t sub = (row / 3) * 3 + (col / 3);
-		auto& rset = rowUsed[row];
-		auto& cset = colUsed[col];
-		auto& sset = subUsed[sub];
-		for (char c = '1'; c <= '9'; c++)
+		auto rset = rowUsed + row * 9;
+		auto cset = colUsed + col * 9;
+		auto sset = subUsed + sub * 9;
+		for (int n = 0; n < 9; n++)
 		{
-			if (rset.find(c) != rset.end() || cset.find(c) != cset.end() || sset.find(c) != sset.end())
+			if (rset[n] || cset[n] || sset[n])
 				continue;
 
-			board[row][col] = c;
-			rset.insert(c);
-			cset.insert(c);
-			sset.insert(c);
+			board[row][col] = '1' + n;
+			rset[n] = true;
+			cset[n] = true;
+			sset[n] = true;
 			if (solve(board, row, col, rowUsed, colUsed, subUsed))
 				return true;
 			board[row][col] = '.';
-			rset.erase(c);
-			cset.erase(c);
-			sset.erase(c);
+			rset[n] = false;
+			cset[n] = false;
+			sset[n] = false;
 		}
 
 		return false;
